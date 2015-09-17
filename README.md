@@ -1,4 +1,4 @@
-# bellwoods
+# porthole
 Report bugs and enhancements for Cabin Quest
 
 ## Porthole Chrome Extension
