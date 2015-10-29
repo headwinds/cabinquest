@@ -1,5 +1,5 @@
 # Cabin Quest
-Please report bugs and enhancements for [Cabin Quest](http://cabinquest-50966.onmodulus.net/#!/) and Porthole by clicking the *Issues* link on the right. 
+Please report bugs and enhancements for [Cabin Quest](http://cabinquest-50966.onmodulus.net/#!/) and Porthole by clicking the Issues link on the right. 
 
 ## Porthole Chrome Extension
 install: [free from the chrome store](https://chrome.google.com/webstore/detail/porthole/dilfffpckfhcpgidnmgaeoidgekcjlln?hl=en)     
