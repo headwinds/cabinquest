@@ -1,0 +1,42 @@
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:fb='https://www.facebook.com/2008/fbml' itemscope='itemscope' itemtype='http://schema.org/Product' ng-controller="PortholeAppViewController" ng-keyup="keyboardClick($event)" ng-swipe-left="swipeLeft($event)" ng-swipe-right="swipeRight($event)" ng-swipe-up="swipeUp($event)" ng-swipe-down="swipeDown($event)">
+
+   {{> header }}
+  <body>
+  <script>
+    /*
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1523864221168236',
+        xfbml      : true,
+        version    : 'v2.3'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+
+    */
+
+    window.isNative = false;
+    window.isChromeExtension = false;
+
+    </script>
+
+    <hive></hive>
+
+    <cabinquest>
+    </cabinquest>
+
+     <!-- mainView -->
+    <div data-ng-view class="mainView"></div>
+   
+    {{> footer }}
+
+    </body>
+</html>
+ 

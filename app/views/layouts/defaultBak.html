@@ -1,0 +1,76 @@
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:fb='https://www.facebook.com/2008/fbml' itemscope='itemscope' itemtype='http://schema.org/Product' ng-controller="PortholeAppViewController" ng-keyup="keyboardClick($event)">
+
+   {{> header }}
+  <body>
+    
+
+    <section id="messagesContainer" class="messages" ng-controller="MainCabinQuestController">
+        
+        <div id="systemMessageContainer" style="display: none">
+            
+            <div id="systemControllsContainer" class="controls">
+                <p class="title"></p>
+                 <button id="systemCloseBtn">x</button>
+            </div>
+
+            <div id="systemMessageContent">
+            </div>
+
+        </div>
+
+    </section>    
+
+
+    <!-- see the public view index.html for the intro -->
+
+
+    <section id="shield" data-ng-controller="ShieldCtrl" ng-init="init()" ng-show="bShowShield">
+        <div id="shieldImg"></div>	
+    </section>
+    
+    <!-- nav -->
+    <!-- see public/views/nav -->
+    <section class="navbar navbar-inverse navbar-fixed-top" data-ng-include="'views/nav/nav.html'" data-role="navigation">
+    </section>
+  
+
+    <div data-ng-view class="mainView"></div>
+
+	{{> bellwoodsPartial }}
+
+    <!-- trees --> 
+  <section id="manageTreeContainer" class="overlay manageTree" style="display: none">
+
+    <tree></tree>
+
+  </section>
+
+   <!-- leaf --> 
+   <leaf leafmodel="curLeaf"></leaf>
+   <!--
+  <section id="leafContainer" class="leaf" style="display: none">
+
+    <div id="leafControlsContainer" class="controls">
+      <div class="title"></div>
+      <button id="leafCloseBtn">close</button>
+      
+    </div>
+
+    <div id="leafContentContainer" class="content"></div>
+    <div class="tags"></div>
+
+
+  </section>
+  -->
+
+  <section id="branchesContainer" style="display: none">
+     <branches></branches>
+  </section>
+
+  <porthole></porthole>
+    
+
+    {{> footer }}
+
+    </body>
+</html>

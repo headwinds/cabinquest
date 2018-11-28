@@ -18,3 +18,56 @@ Some day it will be released as a game on Itch or Steam. You could clone it and 
 ## Sierra
 [Hero's Quest 1](https://playclassic.games/game/play-heros-quest-want-hero-online/play/)
 [Play Sierra Games in the browser](http://sarien.net/)
+
+## Run
+
+server.js
+
+!!! IMPORTANT !!! yarn dev not yarn start
+
+if I deleted node_modules, I must run npm run build
+
+Remember to switch to node 8!
+
+```
+cd builds/lynx
+yarn
+yarn dev
+```
+
+http://localhost:8080
+
+If iconv error, delete the node_modules folder and run
+
+Node 8
+
+```
+yarn
+yarn dev
+```
+
+# Feeds
+
+To find all the RSS feeds see:
+See sagas > porthole > PortholeTreeUtil
+
+server.js is nextjs app for server side rendering that also runs express to manage the API
+
+[nextjs express starter](https://github.com/iaincollins/nextjs-starter)
+
+## Deploy
+
+```
+now
+```
+
+now alias cabinquest.now.sh
+
+after adding --cors to start
+
+need to research this:
+now alias cabinquest.now.sh -r rules.json
+
+## CORS
+
+[path alias](https://zeit.co/blog/path-alias)

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="1000" viewWidth="1000" ATE:version="1.0.0" flm:version="1.0.0" d:id="1" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library/>
+  <Group blendMode="normal" d:type="layer" d:userLabel="fill">
+    <Path flm:isDrawingObject="false" data="M313.95 0Q323.95 0 323.95 10L323.95 153Q323.95 163 313.95 163L304.4 163Q304.7 180.1 311.25 187.75 315.3 192.5 319.65 192.5 293.4 193.05 284.85 172.4 283.05 168 282.2 163L10 163Q0 163 0 153L0 10Q0 0 10 0Z">
+      <fill>
+        <SolidColor color="#FFFFFF"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="stroke">
+    <Group flm:isDrawingObject="false">
+      <Path data="M304.65 163 313.95 163Q323.95 163 323.95 153L323.95 10Q323.95 0 313.95 0L10 0Q0 0 0 10L0 153Q0 163 10 163L281.65 163">
+        <stroke>
+          <SolidColorStroke weight="6" color="#666666"/>
+        </stroke>
+      </Path>
+      <Path data="M282.2 163Q283.05 168 284.85 172.4 293.4 193.05 319.65 192.5 315.3 192.5 311.25 187.75 304.7 180.1 304.4 163">
+        <stroke>
+          <SolidColorStroke weight="6" caps="square" joints="miter" color="#666666"/>
+        </stroke>
+      </Path>
+    </Group>
+  </Group>
+  <Private>
+      <xfl:PrivateElement d:ref="#1" xmlns:xfl="http://ns.adobe.com/xfl/2008/">
+        <xfl:publishSettings xfl:source=""/>
+        <xfl:mobileSettings xfl:source=""/>
+        <xfl:as3ExportItems/>
+      </xfl:PrivateElement>
+    </Private>
+  </Graphic>

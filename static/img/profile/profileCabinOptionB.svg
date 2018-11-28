@@ -1,0 +1,16 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="200px" height="200px" viewBox="0 0 200 200">
+<defs>
+<g id="cabinB_0_Layer0_0_FILL">
+<path fill="#000000" stroke="none" d="
+M 6.55 104.3
+L 6.55 117.1 117.55 117.1 117.55 84.65 78.05 -16 6.55 104.3 Z"/>
+</g>
+</defs>
+
+<g id="cabinB" transform="matrix( 1, 0, 0, 1, 41.45,29.9) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#cabinB_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

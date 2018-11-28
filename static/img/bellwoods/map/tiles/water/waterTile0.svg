@@ -1,0 +1,78 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="1000px" height="1000px" viewBox="0 0 1000 1000">
+<defs>
+<image id="Bitmap_2" x="0" y="0" width="600" height="337" xlink:href="./images/Bitmap_2.png"/>
+
+<filter id="Filter_1" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.22745098039215686 0 0 0 0 0.45098039215686275 0 0 0 0 0.5058823529411764 0 0 0 1 0" result="result1"/>
+</filter>
+
+<g id="Layer8_0_FILL">
+<path fill="#3A7381" stroke="none" d="
+M 0 0
+L 0 1000 1000 1000 1000 0 0 0 Z"/>
+</g>
+
+<g id="water_0_Layer0_0_FILL">
+<path fill="#CEF9FC" stroke="none" d="
+M 300 0
+L 0 0 0 1000 300 1000 300 0 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer8_0_FILL"/>
+</g>
+
+<g id="water8" transform="matrix( 2.6666259765625, 0, 0, 1, 200,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="water7" transform="matrix( 2.33331298828125, 0, 0, 1, 300,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 4.280975341796875, 0, 0, 4.280975341796875, 1160.2,-265.2) ">
+<use xlink:href="#Bitmap_2"/>
+</g>
+
+<g id="water6" transform="matrix( 2, 0, 0, 1, 400,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="water5" transform="matrix( 1.6666259765625, 0, 0, 1, 500,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="water4" transform="matrix( 1.33331298828125, 0, 0, 1, 600,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="water3" transform="matrix( 1, 0, 0, 1, 700,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="water2" transform="matrix( 0.6666259765625, 0, 0, 1, 800,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="water1" transform="matrix( 0.33331298828125, 0, 0, 1, 900,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#water_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

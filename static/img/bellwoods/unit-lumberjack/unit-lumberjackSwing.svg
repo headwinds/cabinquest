@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: flash2svg, http://dissentgraphics.com/tools/flash2svg -->
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="lumberjackSwing" image-rendering="auto" baseProfile="basic" version="1.1" x="0px" y="0px" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <symbol id="arm0" viewBox="-50 -50 110.6 111.85">
+      <g id="arm0_0">
+        <g id="element16">
+          <path id="path" fill="#F00" d="M10.6,11.85 L10.6,11.1 7.85,11.1 7.85,11.85 10.6,11.85z"/>
+          <path id="path1" fill="#000" d="M10.6,11.1 L10.6,8.5 10.55,8.5 10.55,7.65 2.6,7.7 2.6,0 0,0 0,8.85 7.85,8.85 7.85,11.1 10.6,11.1z"/>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <g id="Scene_2" overflow="visible">
+    <g id="Scene_1_3_0">
+      <g id="element15" overflow="visible">
+        <g id="legs0_0">
+          <g id="element19">
+            <path id="path4" fill="#000" d="M52.25,61 L49.25,61 49.25,68.75 52.25,68.75 52.25,61z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Scene_1_2_0">
+      <g id="element14" overflow="visible">
+        <g id="body0_0">
+          <g id="element18">
+            <path id="path3" fill="#000" d="M57.75,46.5 L41.75,46.5 41.75,62.5 57.75,62.5 57.75,46.5z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Scene_1_1_0">
+      <g id="element13" overflow="visible">
+        <g id="head0_0">
+          <g id="element17">
+            <path id="path2" fill="#000" d="M53,47.75 Q54.5,46.3 54.5,44.25 C54.5,42.9 54,41.7 53,40.7 52.05,39.75 50.85,39.25 49.5,39.25 48.15,39.25 46.95,39.75 45.95,40.7 45,41.7 44.5,42.9 44.5,44.25 44.5,45.6 45,46.8 45.95,47.75 46.95,48.75 48.15,49.25 49.5,49.25 50.85,49.25 52.05,48.75 53,47.75z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Scene_1_0_12">
+      <use xlink:href="#arm0" id="element12" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(-0.0485076904296875 -0.998809814453125 0.998809814453125 -0.0485076904296875 52.65 56.2)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;1;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_0_11">
+      <use xlink:href="#arm0" id="element11" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.1090850830078125 -0.9936370849609375 0.9936370849609375 0.1090850830078125 52.6 55.9)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.917;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_0_10">
+      <use xlink:href="#arm0" id="element10" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.263580322265625 -0.9637603759765625 0.9637603759765625 0.263580322265625 52.7 55.5)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.833;0.917;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_9">
+      <use xlink:href="#arm0" id="element9" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.4115447998046875 -0.9100189208984375 0.9100189208984375 0.4115447998046875 52.9 55.05)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.75;0.833;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_8">
+      <use xlink:href="#arm0" id="element8" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.5520782470703125 -0.831939697265625 0.831939697265625 0.5520782470703125 53.35 54.4)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.667;0.75;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_7">
+      <use xlink:href="#arm0" id="element7" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.67596435546875 -0.73468017578125 0.73468017578125 0.67596435546875 53.95 53.8)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.583;0.667;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_6">
+      <use xlink:href="#arm0" id="element6" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.784759521484375 -0.619720458984375 0.619720458984375 0.784759521484375 54.7 53.2)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.5;0.583;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_5">
+      <use xlink:href="#arm0" id="element5" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.67596435546875 -0.7346649169921875 0.7346649169921875 0.67596435546875 53.9 53.7)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.417;0.5;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_4">
+      <use xlink:href="#arm0" id="element4" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.55206298828125 -0.8319244384765625 0.8319244384765625 0.55206298828125 53.3 54.3)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.333;0.417;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_3">
+      <use xlink:href="#arm0" id="element3" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.4115447998046875 -0.9100189208984375 0.9100189208984375 0.4115447998046875 52.8 54.9)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.25;0.333;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_2">
+      <use xlink:href="#arm0" id="element2" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.2635650634765625 -0.9637603759765625 0.9637603759765625 0.2635650634765625 52.6 55.45)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.167;0.25;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_1">
+      <use xlink:href="#arm0" id="element1" width="111" height="112" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110.6 111.85" transform="matrix(0.1090850830078125 -0.9936370849609375 0.9936370849609375 0.1090850830078125 52.55 55.85)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.083;0.167;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_0_0">
+      <use xlink:href="#arm0" id="element" width="111" height="112" x="-50" y="-50" overflow="visible" transform="matrix(-0.0485076904296875 -0.998809814453125 0.998809814453125 -0.0485076904296875 52.65 56.2)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="0.5s" keyTimes="0;0.083;1" values="inline;none;none"/>
+    </g>
+  </g>
+</svg>

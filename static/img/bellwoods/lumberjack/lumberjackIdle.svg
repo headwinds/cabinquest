@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: flash2svg, http://dissentgraphics.com/tools/flash2svg -->
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="lumberjackIdle" image-rendering="auto" baseProfile="basic" version="1.1" x="0px" y="0px" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs/>
+  <g id="Scene_2" overflow="visible">
+    <g id="Scene_1_3_0">
+      <g id="element2" overflow="visible">
+        <g id="legs0_0">
+          <g id="element5">
+            <path id="path2" fill="#000" d="M52.25,61 L49.25,61 49.25,68.75 52.25,68.75 52.25,61z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Scene_1_2_0">
+      <g id="element1" overflow="visible">
+        <g id="body0_0">
+          <g id="element4">
+            <path id="path1" fill="#000" d="M57.75,46.5 L41.75,46.5 41.75,62.5 57.75,62.5 57.75,46.5z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Scene_1_1_0">
+      <g id="element" overflow="visible">
+        <g id="head0_0">
+          <g id="element3">
+            <path id="path" fill="#000" d="M53,47.75 Q54.5,46.3 54.5,44.25 C54.5,42.9 54,41.7 53,40.7 52.05,39.75 50.85,39.25 49.5,39.25 48.15,39.25 46.95,39.75 45.95,40.7 45,41.7 44.5,42.9 44.5,44.25 44.5,45.6 45,46.8 45.95,47.75 46.95,48.75 48.15,49.25 49.5,49.25 50.85,49.25 52.05,48.75 53,47.75z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

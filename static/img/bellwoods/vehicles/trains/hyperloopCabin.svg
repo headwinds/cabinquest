@@ -1,0 +1,65 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="160px" height="40px" viewBox="0 0 160 40">
+<defs>
+<g id="Layer0_0_FILL">
+<path fill="#008A00" stroke="none" d="
+M -91.75 42.5
+Q -92.85 42.8 -93.3 43 -94.2 43.5 -95 44.75 -94.55 45.2 -93.7 45.65
+L -93 46
+Q -91.45 45.4 -91 44
+L -91.75 42.5 Z"/>
+</g>
+
+<g id="cabin_0_Layer1_0_FILL">
+<path fill="#000099" stroke="none" d="
+M 159 -2
+L -1 -2 -1 38 159 38 159 -2
+M 123 6
+L 123 27 115.35 27 115.35 6 123 6
+M 135.2 27
+L 135.2 6 142.9 6 142.9 27 135.2 27
+M 83.3 6
+L 83.3 27 75.55 27 75.55 6 83.3 6
+M 95.5 6
+L 103.15 6 103.15 27 95.5 27 95.5 6
+M 43.5 6
+L 43.5 27 35.85 27 35.85 6 43.5 6
+M 55.7 6
+L 63.35 6 63.35 27 55.7 27 55.7 6
+M 15.95 27
+L 15.95 6 23.65 6 23.65 27 15.95 27 Z"/>
+</g>
+
+<g id="cabin_0_Layer0_0_FILL">
+<path fill="#00FFFF" stroke="none" d="
+M 23.65 6
+L 15.95 6 15.95 27 23.65 27 23.65 6
+M 63.35 6
+L 55.7 6 55.7 27 63.35 27 63.35 6
+M 43.5 27
+L 43.5 6 35.85 6 35.85 27 43.5 27
+M 103.1 6
+L 95.45 6 95.45 27 103.1 27 103.1 6
+M 83.25 27
+L 83.25 6 75.55 6 75.55 27 83.25 27
+M 142.85 6
+L 135.15 6 135.15 27 142.85 27 142.85 6
+M 122.95 27
+L 122.95 6 115.3 6 115.3 27 122.95 27 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_FILL"/>
+</g>
+
+<g id="hyperloopCabin" transform="matrix( 1, 0, 0, 1, 1,2) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#cabin_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#cabin_0_Layer0_0_FILL"/>
+</g>
+</g>
+</svg>

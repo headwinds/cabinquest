@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: flash2svg, http://dissentgraphics.com/tools/flash2svg -->
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="lumberjackWalk" image-rendering="auto" baseProfile="basic" version="1.1" x="0px" y="0px" width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <symbol id="head0" viewBox="-50 -50 110 110">
+      <g id="head0_0">
+        <g id="element90">
+          <path id="path" fill="#000" d="M8.5,8.5 Q10,7.05 10,5 C10,3.65 9.5,2.45 8.5,1.45 7.55,0.5 6.35,0 5,0 3.65,0 2.45,0.5 1.45,1.45 0.5,2.45 0,3.65 0,5 0,6.35 0.5,7.55 1.45,8.5 2.45,9.5 3.65,10 5,10 6.35,10 7.55,9.5 8.5,8.5z"/>
+        </g>
+      </g>
+    </symbol>
+    <symbol id="body0" viewBox="-50 -50 116 116">
+      <g id="body0_0">
+        <g id="element91">
+          <path id="path1" fill="#000" d="M16,0 L0,0 0,16 16,16 16,0z"/>
+        </g>
+      </g>
+    </symbol>
+    <symbol id="legs0" viewBox="-50 -50 103 107.75">
+      <g id="legs0_0">
+        <g id="element92">
+          <path id="path2" fill="#000" d="M3,0 L0,0 0,7.75 3,7.75 3,0z"/>
+        </g>
+      </g>
+    </symbol>
+  </defs>
+  <g id="Scene_1_copy1" overflow="visible">
+    <g id="Scene_1_copy_3_29">
+      <use xlink:href="#legs0" id="element89" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(1 0 0 1 49.25 61)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;1;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_copy_3_28">
+      <use xlink:href="#legs0" id="element88" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9988555908203125 0.04449462890625 -0.04449462890625 0.9988555908203125 49.15 60.3)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.966;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_copy_3_27">
+      <use xlink:href="#legs0" id="element87" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.99542236328125 0.092132568359375 -0.092132568359375 0.99542236328125 49.2 59.65)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.931;0.966;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_26">
+      <use xlink:href="#legs0" id="element86" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9897613525390625 0.1396026611328125 -0.1396026611328125 0.9897613525390625 49.2 59)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.897;0.931;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_25">
+      <use xlink:href="#legs0" id="element85" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9818115234375 0.1867218017578125 -0.1867218017578125 0.9818115234375 49.15 58.35)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.862;0.897;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_24">
+      <use xlink:href="#legs0" id="element84" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.972381591796875 0.2333831787109375 -0.2333831787109375 0.972381591796875 49.2 57.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.828;0.862;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_23">
+      <use xlink:href="#legs0" id="element83" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.98773193359375 0.1529998779296875 -0.1529998779296875 0.98773193359375 49.15 57.8)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.793;0.828;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_22">
+      <use xlink:href="#legs0" id="element82" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9969635009765625 0.0748443603515625 -0.0748443603515625 0.9969635009765625 49.25 57.8)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.759;0.793;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_21">
+      <use xlink:href="#legs0" id="element81" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(1 -0.000518798828125 0.000518798828125 1 49.25 57.8)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.724;0.759;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_20">
+      <use xlink:href="#legs0" id="element80" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.996612548828125 -0.079132080078125 0.079132080078125 0.996612548828125 49.4 57.95)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.69;0.724;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_19">
+      <use xlink:href="#legs0" id="element79" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.987152099609375 -0.1597747802734375 0.1597747802734375 0.987152099609375 49.4 58.05)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.655;0.69;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_18">
+      <use xlink:href="#legs0" id="element78" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9958343505859375 -0.0880584716796875 0.0880584716796875 0.9958343505859375 49.7 58.15)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.621;0.655;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_17">
+      <use xlink:href="#legs0" id="element77" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9997711181640625 -0.018402099609375 0.018402099609375 0.9997711181640625 49.9 58.35)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.586;0.621;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_16">
+      <use xlink:href="#legs0" id="element76" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9986724853515625 0.048065185546875 -0.048065185546875 0.9986724853515625 50.1 58.55)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.552;0.586;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_15">
+      <use xlink:href="#legs0" id="element75" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9926605224609375 0.1175689697265625 -0.1175689697265625 0.9926605224609375 50.3 58.85)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.517;0.552;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_14">
+      <use xlink:href="#legs0" id="element74" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9824676513671875 0.186431884765625 -0.186431884765625 0.9824676513671875 50.55 59.05)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.483;0.517;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_13">
+      <use xlink:href="#legs0" id="element73" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9983978271484375 0.052978515625 -0.052978515625 0.9983978271484375 50.05 58.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.448;0.483;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_12">
+      <use xlink:href="#legs0" id="element72" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.996917724609375 -0.074951171875 0.074951171875 0.996917724609375 49.65 58.65)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.414;0.448;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_11">
+      <use xlink:href="#legs0" id="element71" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9774017333984375 -0.2080841064453125 0.2080841064453125 0.9774017333984375 49.25 58.55)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.379;0.414;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_10">
+      <use xlink:href="#legs0" id="element70" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9413299560546875 -0.3343505859375 0.3343505859375 0.9413299560546875 48.95 58.55)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.345;0.379;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_9">
+      <use xlink:href="#legs0" id="element69" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.8891448974609375 -0.457611083984375 0.457611083984375 0.8891448974609375 48.65 58.6)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.31;0.345;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_8">
+      <use xlink:href="#legs0" id="element68" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9525146484375 -0.3013153076171875 0.3013153076171875 0.9525146484375 48.7 58.25)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.276;0.31;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_7">
+      <use xlink:href="#legs0" id="element67" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9897308349609375 -0.139434814453125 0.139434814453125 0.9897308349609375 48.8 58)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.241;0.276;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_6">
+      <use xlink:href="#legs0" id="element66" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.999542236328125 0.02630615234375 -0.02630615234375 0.999542236328125 48.85 57.85)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.207;0.241;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_5">
+      <use xlink:href="#legs0" id="element65" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.98089599609375 0.1912994384765625 -0.1912994384765625 0.98089599609375 49 57.9)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.172;0.207;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_4">
+      <use xlink:href="#legs0" id="element64" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9354248046875 0.353515625 -0.353515625 0.9354248046875 49.2 57.95)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.138;0.172;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_3">
+      <use xlink:href="#legs0" id="element63" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9627227783203125 0.2673492431640625 -0.2673492431640625 0.9627227783203125 49.3 57.65)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.103;0.138;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_2">
+      <use xlink:href="#legs0" id="element62" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.983367919921875 0.178375244140625 -0.178375244140625 0.983367919921875 49.4 57.3)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.069;0.103;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_1">
+      <use xlink:href="#legs0" id="element61" width="103" height="108" x="-50" y="-50" overflow="visible" viewBox="-50 -50 103 107.75" transform="matrix(0.9958343505859375 0.087921142578125 -0.087921142578125 0.9958343505859375 49.4 57)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.034;0.069;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_3_0">
+      <use xlink:href="#legs0" id="element60" width="103" height="108" x="-50" y="-50" overflow="visible" transform="matrix(1 0 0 1 49.5 56.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.034;1" values="inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_29">
+      <use xlink:href="#body0" id="element59" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.75 46.5)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;1;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_copy_2_28">
+      <use xlink:href="#body0" id="element58" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.6 45.7)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.966;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_copy_2_27">
+      <use xlink:href="#body0" id="element57" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.45 44.9)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.931;0.966;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_26">
+      <use xlink:href="#body0" id="element56" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.3 44.1)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.897;0.931;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_25">
+      <use xlink:href="#body0" id="element55" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.15 43.3)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.862;0.897;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_24">
+      <use xlink:href="#body0" id="element54" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41 42.5)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.828;0.862;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_23">
+      <use xlink:href="#body0" id="element53" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.3 42.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.793;0.828;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_22">
+      <use xlink:href="#body0" id="element52" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.6 43)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.759;0.793;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_21">
+      <use xlink:href="#body0" id="element51" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 41.9 43.25)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.724;0.759;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_20">
+      <use xlink:href="#body0" id="element50" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.2 43.5)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.69;0.724;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_19">
+      <use xlink:href="#body0" id="element49" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.5 43.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.655;0.69;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_18">
+      <use xlink:href="#body0" id="element48" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.45 43.85)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.621;0.655;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_17">
+      <use xlink:href="#body0" id="element47" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.4 43.95)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.586;0.621;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_16">
+      <use xlink:href="#body0" id="element46" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.35 44.05)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.552;0.586;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_15">
+      <use xlink:href="#body0" id="element45" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.3 44.15)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.517;0.552;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_14">
+      <use xlink:href="#body0" id="element44" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.25 44.25)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.483;0.517;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_13">
+      <use xlink:href="#body0" id="element43" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.2 44)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.448;0.483;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_12">
+      <use xlink:href="#body0" id="element42" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.15 43.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.414;0.448;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_11">
+      <use xlink:href="#body0" id="element41" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.1 43.5)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.379;0.414;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_10">
+      <use xlink:href="#body0" id="element40" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.05 43.25)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.345;0.379;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_9">
+      <use xlink:href="#body0" id="element39" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42 43)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.31;0.345;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_8">
+      <use xlink:href="#body0" id="element38" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.1 43.15)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.276;0.31;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_7">
+      <use xlink:href="#body0" id="element37" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.2 43.3)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.241;0.276;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_6">
+      <use xlink:href="#body0" id="element36" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.3 43.45)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.207;0.241;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_5">
+      <use xlink:href="#body0" id="element35" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.4 43.6)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.172;0.207;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_4">
+      <use xlink:href="#body0" id="element34" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.5 43.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.138;0.172;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_3">
+      <use xlink:href="#body0" id="element33" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.4 43.4)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.103;0.138;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_2">
+      <use xlink:href="#body0" id="element32" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.25 43)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.069;0.103;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_1">
+      <use xlink:href="#body0" id="element31" width="116" height="116" x="-50" y="-50" overflow="visible" viewBox="-50 -50 116 116" transform="matrix(1 0 0 1 42.15 42.65)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.034;0.069;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_2_0">
+      <use xlink:href="#body0" id="element30" width="116" height="116" x="-50" y="-50" overflow="visible" transform="matrix(1 0 0 1 42 42.25)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.034;1" values="inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_29">
+      <use xlink:href="#head0" id="element29" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.5 39.25)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;1;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_copy_1_28">
+      <use xlink:href="#head0" id="element28" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.4 38.6)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.966;1" values="none;inline;none"/>
+    </g>
+    <g id="Scene_1_copy_1_27">
+      <use xlink:href="#head0" id="element27" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.3 37.95)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.931;0.966;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_26">
+      <use xlink:href="#head0" id="element26" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.2 37.3)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.897;0.931;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_25">
+      <use xlink:href="#head0" id="element25" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.1 36.65)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.862;0.897;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_24">
+      <use xlink:href="#head0" id="element24" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44 36)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.828;0.862;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_23">
+      <use xlink:href="#head0" id="element23" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.25 36.2)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.793;0.828;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_22">
+      <use xlink:href="#head0" id="element22" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.5 36.4)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.759;0.793;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_21">
+      <use xlink:href="#head0" id="element21" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.75 36.6)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.724;0.759;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_20">
+      <use xlink:href="#head0" id="element20" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45 36.8)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.69;0.724;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_19">
+      <use xlink:href="#head0" id="element19" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.25 37)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.655;0.69;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_18">
+      <use xlink:href="#head0" id="element18" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.2 36.95)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.621;0.655;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_17">
+      <use xlink:href="#head0" id="element17" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.15 36.9)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.586;0.621;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_16">
+      <use xlink:href="#head0" id="element16" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.1 36.85)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.552;0.586;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_15">
+      <use xlink:href="#head0" id="element15" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.05 36.8)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.517;0.552;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_14">
+      <use xlink:href="#head0" id="element14" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45 36.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.483;0.517;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_13">
+      <use xlink:href="#head0" id="element13" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.1 36.55)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.448;0.483;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_12">
+      <use xlink:href="#head0" id="element12" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.2 36.35)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.414;0.448;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_11">
+      <use xlink:href="#head0" id="element11" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.3 36.15)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.379;0.414;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_10">
+      <use xlink:href="#head0" id="element10" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.4 35.95)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.345;0.379;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_9">
+      <use xlink:href="#head0" id="element9" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.5 35.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.31;0.345;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_8">
+      <use xlink:href="#head0" id="element8" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.45 35.9)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.276;0.31;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_7">
+      <use xlink:href="#head0" id="element7" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.4 36.05)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.241;0.276;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_6">
+      <use xlink:href="#head0" id="element6" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.35 36.2)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.207;0.241;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_5">
+      <use xlink:href="#head0" id="element5" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.3 36.35)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.172;0.207;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_4">
+      <use xlink:href="#head0" id="element4" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.25 36.5)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.138;0.172;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_3">
+      <use xlink:href="#head0" id="element3" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45.15 36.15)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.103;0.138;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_2">
+      <use xlink:href="#head0" id="element2" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 45 35.75)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.069;0.103;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_1">
+      <use xlink:href="#head0" id="element1" width="110" height="110" x="-50" y="-50" overflow="visible" viewBox="-50 -50 110 110" transform="matrix(1 0 0 1 44.9 35.4)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.034;0.069;1" values="none;inline;none;none"/>
+    </g>
+    <g id="Scene_1_copy_1_0">
+      <use xlink:href="#head0" id="element" width="110" height="110" x="-50" y="-50" overflow="visible" transform="matrix(1 0 0 1 44.75 35)"/>
+      <animate attributeName="display" begin="0s" repeatCount="indefinite" dur="1.208s" keyTimes="0;0.034;1" values="inline;none;none"/>
+    </g>
+  </g>
+</svg>

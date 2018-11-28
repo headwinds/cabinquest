@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Graphic version="2.0" viewHeight="375" viewWidth="700" ATE:version="1.0.0" flm:version="1.0.0" d:id="1" d:using="" xmlns="http://ns.adobe.com/fxg/2008" xmlns:ATE="http://ns.adobe.com/ate/2009" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:flm="http://ns.adobe.com/flame/2008">
+  <Library>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__42" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_42">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M86.55 33.95Q86.95 23.95 85.4 0.6 87.9 11.85 88.9 24.6 89.2 28.65 89.75 43.6 90 49.2 90.15 67.3 90.3 81.6 90.3 87.05 90.3 92.85 90.05 94 89.75 95.55 87.95 97.35 84.2 101.1 75.25 104.9 61.85 110.6 46.75 110.6 32.05 110.6 15.9 105.9 7.85 103.55
+ 2.7 101.2 2.2 101.05 1.7 100.4 0.65 99.1 0.65 96.6 0.65 95.45 0.35 90.35 0 85.25 0 82.6 0 63.6 1.45 45.65 3.6 18.6 8.65 0 5.05 27.75 10.5 45.55 18.05 70.5 42.6 71.75L54.75 71.9 57.2 71.7Q60.3 71.25 63.5 70.2 73.6 66.75 80.45 58.1 85.9 51.25
+ 86.55 33.95Z">
+          <fill>
+            <SolidColor color="#FDE431"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__43" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_43">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M2.7 1.15Q2.7 1.65 2.3 2 1.9 2.35 1.35 2.35 0.8 2.35 0.4 2 0 1.65 0 1.15 0 0.65 0.4 0.35 0.8 0 1.35 0 1.9 0 2.3 0.35 2.7 0.65 2.7 1.15Z">
+          <fill>
+            <SolidColor color="#FFFFFF"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__44" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_44">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M7.5 3.55Q7.5 5.05 6.4 6.1 5.3 7.15 3.75 7.15 2.2 7.15 1.1 6.1 0 5.05 0 3.55 0 2.1 1.1 1.05 2.2 0 3.75 0 5.3 0 6.4 1.05 7.5 2.1 7.5 3.55Z">
+          <fill>
+            <SolidColor color="#FFFFFF"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__45" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_45">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M2.75 1.15Q2.75 1.65 2.35 2 1.95 2.35 1.4 2.35 0.85 2.35 0.4 2 0 1.65 0 1.15 0 0.65 0.4 0.35 0.85 0 1.4 0 1.95 0 2.35 0.35 2.75 0.65 2.75 1.15Z">
+          <fill>
+            <SolidColor color="#FFFFFF"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__46" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_46">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M7.45 3.2Q7.65 4.65 6.65 5.8 5.65 6.95 4.1 7.1 2.55 7.3 1.35 6.35 0.15 5.4 0 3.95 -0.15 2.5 0.85 1.35 1.85 0.2 3.4 0 4.95 -0.15 6.1 0.8 7.3 1.7 7.45 3.2Z">
+          <fill>
+            <SolidColor color="#FFFFFF"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__47" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_47">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M0.05 4.3Q0.6 2.75 4.5 0.25 5.5 0 6.25 0 8.3 0 11.05 0.95 13.4 1.8 15.45 3 14.6 4.45 12.55 5.35 9.85 6.5 5.5 6.5 -0.7 6.5 0.05 4.3Z">
+          <fill>
+            <SolidColor color="#FFFFFF"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__55" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_55">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M0 15.7 0.3 1.95Q0.3 1.15 0.9 0.55 1.55 -0.05 2.35 0 3.15 0 3.75 0.6 4.3 1.2 4.3 2.05L3.95 17.55Q1.7 14.85 0 15.7Z">
+          <fill>
+            <SolidColor color="#BF2932"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+    <Definition name="chickens_ai_Assets_Layer_1_Path__57" flm:originalName="chickens.ai Assets/Layer 1/&lt;Path&gt;_57">
+      <Group d:type="layer" d:userLabel="Layer 1">
+        <Path flm:isDrawingObject="true" data="M4.3 15.7Q2.6 14.85 0.35 17.55L0 2.05Q-0.05 1.25 0.55 0.6 1.15 0 1.95 0 2.75 -0.05 3.35 0.55 3.95 1.1 4 1.95Z">
+          <fill>
+            <SolidColor color="#BF2932"/>
+          </fill>
+        </Path>
+      </Group>
+    </Definition>
+  </Library>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 20">
+    <Path flm:isDrawingObject="false" data="M99.1 245.35Q97.45 233.35 94.1 222.3 89.9 208.2 78.8 199 75.35 196.15 71.6 194.1L68.55 192.65Q68.55 192.35 68.75 192.05 69.2 191.4 70.3 191.35 72.85 191.25 75.3 191.15 76.35 191.1 75.95 190.7 75.7 190.45 72.55 189.95 69.55 189.5 69.05 189.55
+ 64.05 189.85 61.15 191.4 60.25 191.9 60.1 191.95 59.9 192 59.9 191.3 59.9 190.1 62.05 188.75 64 187.55 65.5 187.4 69.25 187.05 67.8 186.75L65.6 186.5Q60.6 186.5 50.45 191.35 37.3 197.65 30.65 207.05 24.35 216 20.05 231.95L20 232.05 17.95 240.5
+Q17.1 244.5 16.45 248.35L16.35 248.75 15.85 251.85Q15.2 255.75 14.65 260L14.15 264.05Q7.9 277.2 4.5 303.85 4.25 306.15 6.7 308.95 8.75 311.3 11.45 312.75L11.4 314.55Q11.4 317.2 11.75 322.3 12.05 327.4 12.05 328.55 12.05 331.05 13.1 332.35 13.6
+ 333 14.1 333.15L19.65 335.35Q26.65 337.9 34.1 339.6L33.45 367.45Q26.15 368.7 25.05 380.3 24.9 381.7 24.95 381.75 25 382.4 25.7 382.45 26.45 382.5 26.8 381.15 26.95 380.6 27.1 379 27.3 377.8 28.5 375.7 30.45 372.5 33.35 371.55L34.1 380.5Q33.95
+ 384.15 35.05 384.15 35.8 384.2 36.05 382.9 36.15 382.45 36.2 380.8L37.35 371.7Q40.4 372.75 42.5 376.1 43.95 378.35 44.1 379.5 44.15 380.05 44.25 381.45 44.4 382.5 45.1 382.45 45.8 382.4 45.95 381.5 45.95 381.1 45.85 379.75 44.95 369.2 37.45
+ 367.55L38.1 340.45Q48.8 342.55 58.15 342.55 68.15 342.55 78.1 339.85L78.7 367.55Q71.3 369.2 70.35 379.75 70.25 381.1 70.3 381.5 70.4 382.4 71.1 382.45 71.8 382.5 72 381.45 72.05 380.05 72.1 379.5 72.1 378.55 73.65 376.1 75.8 372.8 78.8 371.7
+L80 380.8Q80.1 382.5 80.15 382.9 80.4 384.2 81.1 384.15 81.8 384.15 82 382.75 82.1 382.15 82.1 380.5L82.8 371.55Q85.7 372.5 87.65 375.7 88.95 377.8 89.1 379 89.25 380.6 89.4 381.15 89.7 382.5 90.45 382.45 91.15 382.4 91.25 381.75 91.25 381.6
+ 91.15 380.3 89.9 368.65 82.7 367.45L82.05 338.6Q88.45 336.4 93.8 333.25 97.7 330.95 99.35 329.3L100.5 328.05Q101.35 326.95 101.55 325.4 101.7 324.3 101.7 320.3L101.65 309.45Q104.35 308.05 106.45 305.65 109 302.8 108.7 300.5 105.9 278.15 100.8
+ 264.75 100.3 253.85 99.1 245.35Z">
+      <stroke>
+        <SolidColorStroke weight="9" caps="none" joints="miter" miterLimit="4" color="#333333"/>
+      </stroke>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 18">
+    <Path x="-4.45" y="-186.5" flm:isDrawingObject="true" data="M82.4 519.7Q82.35 518.9 82.95 518.3 83.5 517.7 84.35 517.7 85.15 517.65 85.75 518.25 86.35 518.8 86.4 519.65L87.15 553.95Q94.35 555.15 95.6 566.8 95.7 568.1 95.7 568.25 95.6 568.9 94.9 568.95 94.15 569 93.85 567.65 93.7 567.1 93.55 565.5 93.4
+ 564.3 92.1 562.2 90.15 559 87.25 558.05L86.55 567Q86.55 568.65 86.45 569.25 86.25 570.65 85.55 570.65 84.85 570.7 84.6 569.4 84.55 569 84.45 567.3L83.25 558.2Q80.25 559.3 78.1 562.6 76.55 565.05 76.55 566 76.5 566.55 76.45 567.95 76.25 569
+ 75.55 568.95 74.85 568.9 74.75 568 74.7 567.6 74.8 566.25 75.75 555.7 83.15 554.05Z">
+      <fill>
+        <SolidColor color="#F59331"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_57">
+    <chickens_ai_Assets_Layer_1_Path__57 x="77.95" y="331.15" blendMode="layer" alpha="0.671875"/>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 16">
+    <Path x="-4.45" y="-186.5" flm:isDrawingObject="true" data="M42.7 519.7 41.9 554.05Q49.25 555.65 50.3 566.25 50.4 567.6 50.4 568 50.25 568.9 49.55 568.95 48.85 569 48.7 567.95 48.6 566.55 48.55 566 48.4 564.85 46.95 562.6 44.85 559.25 41.8 558.2L40.65 567.3Q40.6 568.95 40.5 569.4 40.25 570.7 39.5 570.65
+ 38.4 570.65 38.55 567L37.8 558.05Q34.9 559 32.95 562.2 31.75 564.3 31.55 565.5 31.4 567.1 31.25 567.65 30.9 569 30.15 568.95 29.45 568.9 29.4 568.25 29.35 568.2 29.5 566.8 30.6 555.2 37.9 553.95L38.7 519.65Q38.7 518.85 39.3 518.25 39.95 517.65
+ 40.75 517.7 41.55 517.7 42.15 518.3 42.7 518.85 42.7 519.7Z">
+      <fill>
+        <SolidColor color="#F59331"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_55">
+    <chickens_ai_Assets_Layer_1_Path__55 x="33.95" y="331.15" blendMode="layer" alpha="0.671875"/>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 14">
+    <Path x="-4.45" y="-186.5" flm:isDrawingObject="true" data="M24.3 442.7 25.95 483.35 22.85 491.7Q19.5 500.05 18.1 500.05 16.05 500.05 12.5 496.85 8.6 493.3 8.95 490.35 12.35 463.55 18.65 450.45 20.65 446.35 22.65 444.1Z">
+      <fill>
+        <SolidColor color="#FDE431"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 13">
+    <Path x="-4.45" y="-186.5" flm:isDrawingObject="true" data="M97.8 439.3 99.45 440.75Q101.45 443 103.45 447.1 109.75 460.2 113.15 487 113.5 489.9 109.6 493.45 106.05 496.65 104 496.65 102.65 496.65 99.25 488.35L96.15 480Z">
+      <fill>
+        <SolidColor color="#FDE431"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 12">
+    <Path x="-4.45" y="-186.5" flm:isDrawingObject="true" data="M64.55 378.45Q64.7 378.4 65.6 377.9 68.5 376.35 73.5 376.05 74 376 77 376.45 80.15 376.95 80.4 377.2 80.8 377.6 79.75 377.65 77.3 377.75 74.75 377.85 73.65 377.9 73.2 378.55 73 378.85 73 379.15L76.05 380.6Q79.8 382.65 83.25 385.5 94.35 394.7
+ 98.55 408.8 102.8 423.05 104.35 438.8 105.05 445.45 105.6 462.05 105.85 467.65 106 485.75 106.15 500.05 106.15 505.5 106.15 511.3 105.9 512.45 105.6 514 103.8 515.8 100.05 519.55 91.1 523.35 77.7 529.05 62.6 529.05 47.9 529.05 31.75 524.35
+ 23.7 522 18.55 519.65 18.05 519.5 17.55 518.85 16.5 517.55 16.5 515.05 16.5 513.9 16.2 508.8 15.85 503.7 15.85 501.05 15.85 472.4 18.9 448.15 23.65 409.7 35.1 393.55 41.75 384.15 54.9 377.85 65.05 373 70.05 373 75.95 373.3 69.95 373.9 68.45
+ 374.05 66.5 375.25 64.35 376.6 64.35 377.8 64.35 378.5 64.55 378.45Z">
+      <fill>
+        <SolidColor color="#FDF6BD"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 11">
+    <Group x="-4.45" y="-186.5" flm:isDrawingObject="true">
+      <Path data="M51.7 406.65Q51.7 409.7 49.45 411.9 47.2 414.05 44.05 414.05 40.85 414.05 38.6 411.9 36.35 409.7 36.35 406.65 36.35 403.6 38.6 401.4 40.85 399.25 44.05 399.25 47.2 399.25 49.45 401.4 51.7 403.6 51.7 406.65Z">
+        <fill>
+          <SolidColor color="#064947"/>
+        </fill>
+      </Path>
+      <Path data="M51.7 406.65Q51.7 409.7 49.45 411.9 47.2 414.05 44.05 414.05 40.85 414.05 38.6 411.9 36.35 409.7 36.35 406.65 36.35 403.6 38.6 401.4 40.85 399.25 44.05 399.25 47.2 399.25 49.45 401.4 51.7 403.6 51.7 406.65Z">
+        <stroke>
+          <SolidColorStroke color="#14918C"/>
+        </stroke>
+      </Path>
+    </Group>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 10">
+    <Group x="-4.45" y="-186.5" flm:isDrawingObject="true">
+      <Path data="M87.95 403.7Q87.95 406.8 85.7 408.95 83.5 411.1 80.3 411.1 77.1 411.1 74.85 408.95 72.6 406.75 72.6 403.7 72.6 400.65 74.85 398.45 77.1 396.3 80.3 396.3 83.5 396.3 85.7 398.45 87.95 400.6 87.95 403.7Z">
+        <fill>
+          <SolidColor color="#007070"/>
+        </fill>
+      </Path>
+      <Path data="M87.95 403.7Q87.95 406.8 85.7 408.95 83.5 411.1 80.3 411.1 77.1 411.1 74.85 408.95 72.6 406.75 72.6 403.7 72.6 400.65 74.85 398.45 77.1 396.3 80.3 396.3 83.5 396.3 85.7 398.45 87.95 400.6 87.95 403.7Z">
+        <stroke>
+          <SolidColorStroke color="#14918C"/>
+        </stroke>
+      </Path>
+    </Group>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 9">
+    <Path x="-4.45" y="-186.5" flm:isDrawingObject="true" data="M50.85 418.05Q52.25 416.55 54.25 415.05 58.3 412.05 61.6 412.05 64.4 412.05 68.05 413.65 71.4 415.1 72.85 416.55 74.25 417.95 70.35 420.7 66.3 423.55 61.85 423.55 57.2 423.55 53.25 421.55 49.35 419.55 50.85 418.05Z">
+      <fill>
+        <SolidColor color="#FDC130"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="Layer 8">
+    <Path x="-4.45" y="-186.5" flm:isDrawingObject="true" data="M61.9 423.55Q57.55 423.55 53.7 421.75 49.9 419.95 50.6 418.4 55.1 419.8 61.5 419.8 65.8 419.8 68.85 418.75 70.85 418.05 72.9 416.6 74.15 418.05 70.3 420.75 66.25 423.55 61.9 423.55Z">
+      <fill>
+        <SolidColor color="#F59331"/>
+      </fill>
+    </Path>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_47">
+    <chickens_ai_Assets_Layer_1_Path__47 x="50.9" y="225.55" blendMode="layer" alpha="0.5703125"/>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_46">
+    <chickens_ai_Assets_Layer_1_Path__46 x="74.65" y="212.15" blendMode="layer" alpha="0.828125"/>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_45">
+    <chickens_ai_Assets_Layer_1_Path__45 x="75.65" y="220.55" blendMode="layer" alpha="0.828125"/>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_44">
+    <chickens_ai_Assets_Layer_1_Path__44 x="38" y="214.65" blendMode="layer" alpha="0.828125"/>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_43">
+    <chickens_ai_Assets_Layer_1_Path__43 x="39.05" y="223.05" blendMode="layer" alpha="0.828125"/>
+  </Group>
+  <Group blendMode="normal" d:type="layer" d:userLabel="&lt;Path&gt;_42">
+    <chickens_ai_Assets_Layer_1_Path__42 x="11.4" y="231.95" blendMode="layer" alpha="0.359375"/>
+  </Group>
+  <Private>
+      <xfl:PrivateElement d:ref="#1" xmlns:xfl="http://ns.adobe.com/xfl/2008/">
+        <xfl:publishSettings xfl:source=""/>
+        <xfl:mobileSettings xfl:source=""/>
+        <xfl:as3ExportItems/>
+      </xfl:PrivateElement>
+    </Private>
+  </Graphic>
