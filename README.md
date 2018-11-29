@@ -23,16 +23,23 @@ Some day it will be released as a game on Itch or Steam. You could clone it and 
 
 server.js
 
+```
+yarn
+yarn dev
+```
+
 !!! IMPORTANT !!! yarn dev not yarn start
 
 if I deleted node_modules, I must run npm run build
 
-Remember to switch to node 8!
+Remember to switch to node 8! ? still maybe I don't need to anymore...need to test
+
+Ensure XCode and the command line tools are installed
+
+If gyp fails - see this [tech post](https://github.com/nodejs/node-gyp/issues/569) and do:
 
 ```
-cd builds/lynx
-yarn
-yarn dev
+sudo xcode-select --switch /Library/Developer/CommandLineTools
 ```
 
 http://localhost:8080

@@ -1,0 +1,5 @@
+node_modules/
+
+/firebase/firebase.js
+/config/env/development.js
+/config/env/production.js
