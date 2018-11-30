@@ -7,7 +7,7 @@ Tech:
 * NODEJS
 * EXPRESS
 
-Cabin Quest began when Google Reader ended. While learning NodeJS & Express, I accomplished my first goal to create a service to upload, parse, and save my Google Reader zip into Mongodb. Then, I designed and develop a UI to manage my 800 feeds. Finally, I built this NextJS app to learn both it and GraphQL. Basically, I wanted a fun weekend project to learn emerging tech. 
+Cabin Quest began when Google Reader ended. While learning NodeJS & Express, I accomplished my first goal to create a service to upload, parse, and save my Google Reader zip into Mongodb. Then, I designed and develop a UI to manage my 800 feeds. Finally, I built this NextJS app to learn both it and GraphQL. Basically, I wanted a fun weekend project to learn emerging tech and become more full stack.
 
 Currently [Cabin Quest](https://cabinquest.now.sh/) is a private API hosted on [Zeit.co](https://zeit.co)
 
@@ -68,7 +68,7 @@ now alias cabinquest.now.sh -r rules.json
 
 ## Future
 
-In the spirit of the Sierra Quest games but with a modern approach, I eventually want to experiment with combining the API feed with game mechanics or some interactive experience; part story, part data visualization. I would be nice to contribute to the best open source similar to how Lucas and Sierra built own [SCUUM](http://wiki.scummvm.org/index.php/Sierra) systems.    
+In the spirit of the Sierra Quest games but with a modern approach, I eventually want to experiment with combining the API feed with game mechanics or some interactive experience; part story, part data visualization. It would be nice to contribute to the best open source similar to how Lucas and Sierra built own [SCUUM](http://wiki.scummvm.org/index.php/Sierra) systems.    
 
 ## Sierra
 [Hero's Quest 1](https://playclassic.games/game/play-heros-quest-want-hero-online/play/)
