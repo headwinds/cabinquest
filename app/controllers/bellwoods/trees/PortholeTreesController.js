@@ -2,7 +2,7 @@ var util = require('util');
 var events = require('events');
 var _ = require('lodash');
 
-var Iconv = require('iconv').Iconv;
+//var Iconv = require('iconv').Iconv;
 var zlib = require('zlib');
 
 var FeedParser = require('feedparser');
@@ -49,6 +49,7 @@ var getTree = function(req, res, feedPath) {
     }
 
     function maybeTranslate(res, charset) {
+      /*
         var iconv;
         // Use iconv if its not utf8 already.
         if (!iconv && charset && !/utf-*8/i.test(charset)) {
@@ -66,7 +67,7 @@ var getTree = function(req, res, feedPath) {
             } catch (err) {
                 res.emit('error', err);
             }
-        }
+        }*/
         return res;
     }
 

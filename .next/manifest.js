@@ -90,7 +90,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1a949fd02ca2cb2e2f59"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "12791a9867b0afdc0b68"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -755,7 +755,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","3":"bundles/pages/bellwoods.js","4":"bundles/pages/home.js"}[chunkId]||chunkId) + "-" + {"0":"acd336a60b4c68b4d036","1":"3763de13a4559be52569","3":"efee4c5d8a2827bbc9a6","4":"84698ff513067eebb52c"}[chunkId] + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"main.js","1":"bundles/pages/_error.js","3":"bundles/pages/home.js"}[chunkId]||chunkId) + "-" + {"0":"6e260b7fc883e09833db","1":"9a3a532253314e1f0220","3":"7ecf150377ae9ee99083"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {

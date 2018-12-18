@@ -1,4 +1,6 @@
+# this is supposed to ignore node_modules at root and all sub directories
 node_modules/
+/node_modules
 
 /firebase/firebase.js
 /config/env/development.js

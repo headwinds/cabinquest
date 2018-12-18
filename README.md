@@ -29,6 +29,8 @@ troubleshooting:
 * If you delete the node_modules, please run: `npm run build`
 * Ensure XCode and the command line tools are installed
 * If gyp fails - see this [tech post](https://github.com/nodejs/node-gyp/issues/569) and do:
+* IconV was used in app/controllers/bellwoods/trees/PortholeTreesController.js & TreesController
+* IconV does UTF-8 check on the stream - I may or may not need it?!
 
 ```
 sudo xcode-select --switch /Library/Developer/CommandLineTools

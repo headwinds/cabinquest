@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -264,10 +264,10 @@ var getSummary = function getSummary() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (immutable) */ __webpack_exports__["b"] = onCabinquestTreesRequest;
-/* harmony export (immutable) */ __webpack_exports__["d"] = onGetCabinquestTreesSuccess;
-/* harmony export (immutable) */ __webpack_exports__["c"] = onGetCabinquestTreesFail;
-/* harmony export (immutable) */ __webpack_exports__["a"] = getCabinquestTrees;
+/* harmony export (immutable) */ __webpack_exports__["a"] = onCabinquestTreesRequest;
+/* harmony export (immutable) */ __webpack_exports__["c"] = onGetCabinquestTreesSuccess;
+/* harmony export (immutable) */ __webpack_exports__["b"] = onGetCabinquestTreesFail;
+/* unused harmony export getCabinquestTrees */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__("./constants/index.js");
 
 
@@ -357,11 +357,11 @@ export function getCabinquestTrees() {
 /* unused harmony export postDefaultParkRequest */
 /* unused harmony export postDefaultParkSuccess */
 /* unused harmony export postDefaultParkFail */
-/* harmony export (immutable) */ __webpack_exports__["i"] = postDefaultPark;
+/* harmony export (immutable) */ __webpack_exports__["h"] = postDefaultPark;
 /* harmony export (immutable) */ __webpack_exports__["g"] = onPostCabinQuestTreeRequest;
 /* harmony export (immutable) */ __webpack_exports__["f"] = onPostCabinQuestTreeReceivedSuccess;
 /* harmony export (immutable) */ __webpack_exports__["e"] = onPostCabinQuestTreeReceivedFail;
-/* harmony export (immutable) */ __webpack_exports__["h"] = postCabinQuestTree;
+/* unused harmony export postCabinQuestTree */
 /* harmony export (immutable) */ __webpack_exports__["d"] = onGetCabinQuestParkRequest;
 /* harmony export (immutable) */ __webpack_exports__["c"] = onGetCabinQuestParkReceivedSuccess;
 /* harmony export (immutable) */ __webpack_exports__["b"] = onGetCabinQuestParkReceivedFail;
@@ -478,9 +478,9 @@ function getCabinQuestPark() {
 
 "use strict";
 /* unused harmony export onGetPortholeForestRequest */
-/* harmony export (immutable) */ __webpack_exports__["c"] = onGetPortholeForestReceivedSuccess;
-/* harmony export (immutable) */ __webpack_exports__["b"] = onGetPortholeForestReceivedFail;
-/* harmony export (immutable) */ __webpack_exports__["a"] = getPortholeForest;
+/* harmony export (immutable) */ __webpack_exports__["b"] = onGetPortholeForestReceivedSuccess;
+/* harmony export (immutable) */ __webpack_exports__["a"] = onGetPortholeForestReceivedFail;
+/* unused harmony export getPortholeForest */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__constants__ = __webpack_require__("./constants/index.js");
 
 
@@ -1114,6 +1114,8 @@ var _jsxFileName = '/Users/brandonflowers/cabinquest/components/home/About.js';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_react_apollo___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_react_apollo__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_graphql_tag__ = __webpack_require__("graphql-tag");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_graphql_tag___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_graphql_tag__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_react_twitter_auth_lib_react_twitter_auth_component_js__ = __webpack_require__("react-twitter-auth/lib/react-twitter-auth-component.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_react_twitter_auth_lib_react_twitter_auth_component_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_react_twitter_auth_lib_react_twitter_auth_component_js__);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var _jsxFileName = '/Users/brandonflowers/cabinquest/components/signin/Signin.js';
@@ -1129,6 +1131,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+
 
 
 
@@ -1169,6 +1173,12 @@ var Signin = function (_Component) {
         _this.signinWithGoogle = _this.signinWithGoogle.bind(_this);
         _this.handleSocialLogin = _this.handleSocialLogin.bind(_this);
         _this.handleSocialLoginFailure = _this.handleSocialLoginFailure.bind(_this);
+
+        _this.state = {
+            isAuthenticated: false,
+            user: null,
+            token: ''
+        };
         return _this;
     }
 
@@ -1247,16 +1257,94 @@ var Signin = function (_Component) {
             location.href = '/auth/google';
         }
     }, {
+        key: 'onSuccess',
+        value: function onSuccess(response) {
+            var _this3 = this;
+
+            var token = response.headers.get('x-auth-token');
+            response.json().then(function (user) {
+                if (token) {
+                    _this3.setState({ isAuthenticated: true, user: user, token: token });
+                }
+            });
+        }
+    }, {
+        key: 'onFailed',
+        value: function onFailed(error) {
+            //alert(error);
+        }
+    }, {
+        key: 'logout',
+        value: function logout() {
+            this.setState({ isAuthenticated: false, token: '', user: null });
+        }
+    }, {
         key: 'render',
         value: function render() {
+
+            var content = !!this.state.isAuthenticated ? __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'div',
+                {
+                    __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 139
+                    }
+                },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 140
+                        }
+                    },
+                    'Authenticated'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 141
+                        }
+                    },
+                    this.state.user.email
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'div',
+                    {
+                        __source: {
+                            fileName: _jsxFileName,
+                            lineNumber: 144
+                        }
+                    },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                        'button',
+                        { onClick: this.logout, className: 'button', __source: {
+                                fileName: _jsxFileName,
+                                lineNumber: 145
+                            }
+                        },
+                        'Log out'
+                    )
+                )
+            ) : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_15_react_twitter_auth_lib_react_twitter_auth_component_js___default.a, { loginUrl: '/auth/twitter',
+                onFailure: this.onFailed, onSuccess: this.onSuccess,
+                requestTokenUrl: '/auth/twitter/callback', __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 152
+                }
+            });
+
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 {
                     __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 112
+                        lineNumber: 159
                     }
                 },
+                content,
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     __WEBPACK_IMPORTED_MODULE_11__SocialButton__["a" /* default */],
                     {
@@ -1266,7 +1354,7 @@ var Signin = function (_Component) {
                         onLoginFailure: this.handleSocialLoginFailure,
                         __source: {
                             fileName: _jsxFileName,
-                            lineNumber: 124
+                            lineNumber: 172
                         }
                     },
                     'Login with Google'
@@ -1287,7 +1375,7 @@ var matchStateToProps = function matchStateToProps(state) {
     return { home: state.home };
 };
 var mapDispatchToProps = function mapDispatchToProps(dispatch) {
-    return Object(__WEBPACK_IMPORTED_MODULE_3_redux__["bindActionCreators"])(_extends({}, __WEBPACK_IMPORTED_MODULE_6__actions_home_actions__, __WEBPACK_IMPORTED_MODULE_7__actions_auth_actions__, { getCabinQuestPark: __WEBPACK_IMPORTED_MODULE_8__actions_feed_cabinquest_park_actions__["a" /* getCabinQuestPark */], postDefaultPark: __WEBPACK_IMPORTED_MODULE_8__actions_feed_cabinquest_park_actions__["i" /* postDefaultPark */] }), dispatch);
+    return Object(__WEBPACK_IMPORTED_MODULE_3_redux__["bindActionCreators"])(_extends({}, __WEBPACK_IMPORTED_MODULE_6__actions_home_actions__, __WEBPACK_IMPORTED_MODULE_7__actions_auth_actions__, { getCabinQuestPark: __WEBPACK_IMPORTED_MODULE_8__actions_feed_cabinquest_park_actions__["a" /* getCabinQuestPark */], postDefaultPark: __WEBPACK_IMPORTED_MODULE_8__actions_feed_cabinquest_park_actions__["h" /* postDefaultPark */] }), dispatch);
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Object(__WEBPACK_IMPORTED_MODULE_2_recompose__["compose"])(Object(__WEBPACK_IMPORTED_MODULE_13_react_apollo__["graphql"])(createUser, {
@@ -3462,7 +3550,7 @@ function getTree(urls) {
                     });
                     _context.prev = 4;
                     _context.next = 7;
-                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["b" /* onCabinquestTreesRequest */])());
+                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["a" /* onCabinquestTreesRequest */])());
 
                 case 7:
                     _context.next = 9;
@@ -3477,7 +3565,7 @@ function getTree(urls) {
                     data = _context.sent;
                     branches = Object(__WEBPACK_IMPORTED_MODULE_8__PortholeTreeUtil__["b" /* getPortholeBranches */])(data.branches);
                     _context.next = 16;
-                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["d" /* onGetCabinquestTreesSuccess */])(branches));
+                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["c" /* onGetCabinquestTreesSuccess */])(branches));
 
                 case 16:
                     _context.next = 23;
@@ -3489,7 +3577,7 @@ function getTree(urls) {
 
                     console.error('branches parsed failed: ', _context.t0);
                     _context.next = 23;
-                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["c" /* onGetCabinquestTreesFail */])(_context.t0));
+                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["b" /* onGetCabinquestTreesFail */])(_context.t0));
 
                 case 23:
                 case 'end':
@@ -3568,7 +3656,7 @@ function getTreeByRSSUrl(treeObj) {
                     });
                     _context4.prev = 3;
                     _context4.next = 6;
-                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["b" /* onCabinquestTreesRequest */])());
+                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["a" /* onCabinquestTreesRequest */])());
 
                 case 6:
                     _context4.next = 8;
@@ -3586,7 +3674,7 @@ function getTreeByRSSUrl(treeObj) {
                     //return branches;
 
                     _context4.next = 15;
-                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["d" /* onGetCabinquestTreesSuccess */])(branches));
+                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["c" /* onGetCabinquestTreesSuccess */])(branches));
 
                 case 15:
                     _context4.next = 22;
@@ -3598,7 +3686,7 @@ function getTreeByRSSUrl(treeObj) {
 
                     console.error('branches parsed failed: ', _context4.t0);
                     _context4.next = 22;
-                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["c" /* onGetCabinquestTreesFail */])(_context4.t0));
+                    return Object(__WEBPACK_IMPORTED_MODULE_4_redux_saga_effects__["put"])(Object(__WEBPACK_IMPORTED_MODULE_6__actions_feed_cabinquest_actions__["b" /* onGetCabinquestTreesFail */])(_context4.t0));
 
                 case 22:
                 case 'end':
@@ -3700,7 +3788,7 @@ function getPortholeForestFeed(dispatch) {
                                 return acc.concat(models);
                             }, []);
 
-                            dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["c" /* onGetPortholeForestReceivedSuccess */])(branches));
+                            dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["b" /* onGetPortholeForestReceivedSuccess */])(branches));
                         });
                     };
 
@@ -3725,7 +3813,7 @@ function getPortholeForestFeed(dispatch) {
                                     return acc.concat(models);
                                 }, []);
 
-                                dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["c" /* onGetPortholeForestReceivedSuccess */])(branches));
+                                dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["b" /* onGetPortholeForestReceivedSuccess */])(branches));
                             }
                         });
                     };
@@ -3786,7 +3874,7 @@ function getPortholeForestFeed(dispatch) {
                                             var json = response.json();
                                             return json;
                                         }, function (error) {
-                                            dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["b" /* onGetPortholeForestReceivedFail */])(error));
+                                            dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["a" /* onGetPortholeForestReceivedFail */])(error));
                                         });
 
                                     case 9:
@@ -3839,7 +3927,7 @@ function getPortholeForestFeed(dispatch) {
                                             var json = response.json();
                                             return json;
                                         }, function (error) {
-                                            dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["b" /* onGetPortholeForestReceivedFail */])(error));
+                                            dispatch(Object(__WEBPACK_IMPORTED_MODULE_7__actions_feed_porthole_actions__["a" /* onGetPortholeForestReceivedFail */])(error));
                                         });
 
                                     case 8:
@@ -5250,7 +5338,7 @@ function createReducer(initialState, reducerMap) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/home.js");
@@ -5388,6 +5476,13 @@ module.exports = require("react-emotion");
 /***/ (function(module, exports) {
 
 module.exports = require("react-social-login");
+
+/***/ }),
+
+/***/ "react-twitter-auth/lib/react-twitter-auth-component.js":
+/***/ (function(module, exports) {
+
+module.exports = require("react-twitter-auth/lib/react-twitter-auth-component.js");
 
 /***/ }),
 

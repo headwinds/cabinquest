@@ -17,6 +17,8 @@ import axios from 'axios';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 
+import TwitterLogin from 'react-twitter-auth/lib/react-twitter-auth-component.js';
+
 const config = require('../../config/config');
 
 class Signin extends Component {
@@ -29,6 +31,12 @@ class Signin extends Component {
         this.handleSocialLoginFailure = this.handleSocialLoginFailure.bind(
             this
         );
+
+        this.state = {
+          isAuthenticated: false,
+          user: null,
+          token: ''
+        }
     }
 
     componentDidMount() {
@@ -107,7 +115,46 @@ class Signin extends Component {
         location.href = '/auth/google';
     }
 
+    onSuccess(response) {
+      const token = response.headers.get('x-auth-token');
+      response.json().then(user => {
+        if (token) {
+          this.setState({isAuthenticated: true, user: user, token: token});
+        }
+      });
+    }
+
+    onFailed(error) {
+      //alert(error);
+    }
+
+    logout() {
+      this.setState({isAuthenticated: false, token: '', user: null})
+    }
+
     render() {
+
+      let content = !!this.state.isAuthenticated ?
+    (
+      <div>
+        <p>Authenticated</p>
+        <div>
+          {this.state.user.email}
+        </div>
+        <div>
+          <button onClick={this.logout} className="button" >
+            Log out
+          </button>
+        </div>
+      </div>
+    ) :
+    (
+      <TwitterLogin loginUrl="/auth/twitter"
+                    onFailure={this.onFailed} onSuccess={this.onSuccess}
+                    requestTokenUrl="https://goldfarming.now.sh/auth/twitter/callback"/>
+    );
+
+
         return (
             <div>
                 {/* <Link href="/auth/google">
@@ -121,6 +168,7 @@ class Signin extends Component {
         >
           Login with Facebook
         </SocialButton>*/}
+        {content}
                 <SocialButton
                     provider="google"
                     appId={config.google.clientID}
